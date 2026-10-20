@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj Kumar - Portfolio</title>
+    <!-- FontAwesome for icon rendering -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <!-- Sidebar Section -->
+        <div class="sidebar">
+
+            <!-- Profile Overview -->
+            <div class="profile">
+                <div class="profile-avatar">
+                    <i class="fa-solid fa-user-code"></i>
+                </div>
+                <h2>Manoj Kumar</h2>
+                <p>Full-Stack Web Developer</p>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div>
+                        <div class="label">Email</div>
+                        <a href="mailto:manojkumar246322@gmail.com" class="value">manojkumar246322@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <div>
+                        <div class="label">Phone</div>
+                        <a href="tel:8789693035" class="value">8789693035</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <div class="label">Location</div>
+                        <p class="value">Madhubani, Bihar, India</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social">
+                <a href="https://leetcode.com/u/manoj_k002/" target="_blank" rel="noopener noreferrer" class="social-link" title="LeetCode">
+                    <i class="fa-solid fa-code"></i>
+                </a>
+                <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/YOUR-PROFILE/" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Content Section -->
+        <div class="main-content">
+
+            <!-- Sticky Navigation -->
+            <div id="navigation">
+                <nav>
+                    <a href="#about" class="active">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#education">Education</a>
+                    <a href="#portfolio">Portfolio</a>
+                </nav>
+            </div>
+
+            <!-- About Me Section -->
+            <div id="about">
+                <h2 class="heading">About Me</h2>
+                <div class="line"></div>
+                <p class="content">
+                    I am a Computer Science & Engineering student at Government College of Engineering, Gaya, specializing in Full-Stack Web Development. I build full-stack web applications using frontend technologies (HTML, CSS, JavaScript) alongside backend technologies (Node.js & Express.js). Additionally, I have strong foundations in C, C++, Data Structures & Algorithms, and Cloud Services like Microsoft Azure.
+                </p>
+            </div>
+
+            <!-- Skills Section -->
+            <div id="skills">
+                <h2 class="heading">Skills</h2>
+                <div class="line"></div>
+                <div class="grid-container">
+                    <div class="item">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-brands fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-brands fa-node-js"></i>
+                        <h3>Node & Express</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>C & C++</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <h3>DSA</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-brands fa-git-alt"></i>
+                        <h3>Git & GitHub</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-brands fa-microsoft"></i>
+                        <h3>Microsoft Azure</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Section -->
+            <div id="education">
+                <h2 class="heading">Education</h2>
+                <div class="line"></div>
+                <div class="edtech">
+                    <div class="liner"></div>
+
+                    <div class="edfirst">
+                        <div class="goal"></div>
+                        <span class="year">2022 - Present</span>
+                        <h3 class="degree">B.Tech in Computer Science & Engineering</h3>
+                        <p class="college">Government College of Engineering, Gaya</p>
+                        <p class="work">Focusing on Full-Stack Web Development, Node.js RESTful APIs, Data Structures, Algorithms, and Cloud Computing with Microsoft Azure.</p>
+                    </div>
+
+                    <div class="edsecond">
+                        <div class="goal"></div>
+                        <span class="year">Secondary Education</span>
+                        <h3 class="degree">High School / Senior Secondary</h3>
+                        <p class="college">Sonelal Mahto High School & JNV Madhubani</p>
+                        <p class="work">Gained strong fundamentals in Mathematics, Science, and Computer Science basics.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Section -->
+            <div id="portfolio">
+                <h2 class="heading">Portfolio</h2>
+                <div class="line"></div>
+
+                <div class="project-container">
+                    <div class="project" role="button" tabindex="0" onclick="openModal('Full-Stack Express Web Application', 'A feature-rich RESTful backend and dynamic web application built using Node.js, Express.js, and JavaScript. Features include user authentication, API route handling, and server-side logic rendering.', 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600', ['Node.js', 'Express.js', 'JavaScript', 'REST API'])">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Full-Stack Web App">
+                        </div>
+                        <div class="card">
+                            <h3>Node/Express Web Application</h3>
+                            <p>Backend REST API and web application built with Node.js, Express, and modern JavaScript routing.</p>
+                            <div class="tags">
+                                <span>Node.js</span><span>Express</span><span>REST API</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project" role="button" tabindex="0" onclick="openModal('C++ Bank Management System', 'A console-based application constructed with C++ OOP principles and file handling. Manages user accounts, transaction logs, and balance records efficiently.', 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600', ['C++', 'OOP', 'Data Structures', 'File I/O'])">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Bank Management System">
+                        </div>
+                        <div class="card">
+                            <h3>C++ Bank Management System</h3>
+                            <p>Console software leveraging C++ OOP concepts and File I/O for account and ledger management.</p>
+                            <div class="tags">
+                                <span>C++</span><span>OOP</span><span>File I/O</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project" role="button" tabindex="0" onclick="openModal('Azure Static Site Deployment', 'Cloud hosting project demonstrating continuous deployment via GitHub Actions to Microsoft Azure Static Web Apps with custom routing.', 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600', ['Microsoft Azure', 'GitHub Actions', 'HTML/CSS', 'Cloud'])">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Azure Deployment">
+                        </div>
+                        <div class="card">
+                            <h3>Azure Static Site Deployment</h3>
+                            <p>Automated static web app deployment and hosting configuration using Microsoft Azure.</p>
+                            <div class="tags">
+                                <span>Azure</span><span>CI/CD</span><span>HTML/CSS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project" role="button" tabindex="0" onclick="openModal('Personal Portfolio Web Page', 'A single-page dark-themed developer portfolio featuring CSS Grid, scroll-spy navigation, and modal interactive popups.', 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600', ['HTML5', 'CSS3', 'JavaScript'])">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Portfolio Website">
+                        </div>
+                        <div class="card">
+                            <h3>Responsive Portfolio Website</h3>
+                            <p>Interactive single-page portfolio with CSS Grid layout, modal previews, and scroll-spy navigation.</p>
+                            <div class="tags">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> 
+    </div>
+
+    <!-- Project Modal Dialog -->
+    <div id="projectModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <img id="modalImg" class="modal-img" src="" alt="Project Preview">
+            <h3 id="modalTitle" class="modal-title"></h3>
+            <p id="modalDesc" class="modal-desc"></p>
+            <div id="modalTags" class="tags"></div>
+        </div>
+    </div>
+
+    <!-- JavaScript Interactive Logic -->
+    <script src="js/script.js" defer></script>
+</body>
+</html>
